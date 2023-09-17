@@ -1,5 +1,23 @@
+* {
+  background-color: rgb(41, 41, 41);
+  color: whitesmoke;
+}
 .App {
   padding-left: 10px;
   padding-top: 5px;
   font-size: medium;
+}
+a {
+  color: aquamarine;
+}
+input {
+  color: whitesmoke
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  padding: 10px
 }
