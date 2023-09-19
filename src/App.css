@@ -21,3 +21,17 @@ ul {
 li {
   padding: 10px
 }
+th, td {
+  padding: 4px
+}
+button:hover,a:hover {
+  animation: grow .05s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s 1 forwards alternate;
+}
+@keyframes grow {
+  0% {
+    text-family: inherit;
+  }
+  100% {
+    font-size: 110%;
+  }
+}
