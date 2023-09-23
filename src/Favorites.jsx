@@ -4,14 +4,14 @@ const Favorites = () => {
   return (
     <div>
         <h1>my absolute favorite things</h1>
-        <h2>i like listening to synthwave as well as its aesthetic!</h2>
-        <audio src=""></audio>
-        <video src="https://cdn.discordapp.com/attachments/369926552076419082/728238562591375500/Thursday.mp4" height='300px' controls autoPlay></video>
+        <label htmlFor='sfx'>mandatory audio/video clips</label>
+        <audio id="sfx" src="https://www.soundjay.com/buttons/button-11.mp3" controls>hi</audio>
+        <video src="https://v4.cdnpk.net/videvo_files/video/free/video0469/large_watermarked/_import_616e66e2e90167.37348782_FPpreview.mp4" height='300px' controls autoPlay></video>
         <h2>i also like photography</h2>
         <h4>here are a few of my favorite photos from my '22 summer vacation:</h4>
-        <img src="https://cdn.discordapp.com/attachments/798194521321504788/1153523518596726844/DSCF5194.JPG" height='280vw' alt="" />
-        <img src="https://cdn.discordapp.com/attachments/798194521321504788/1153523519615938633/DSCF4991.JPG" height='280vw' alt="" />
-        <img src="https://cdn.discordapp.com/attachments/798194521321504788/1153524008524980325/DSCF4656.JPG" height='280vw' alt="" />
+        <img src="https://live.staticflickr.com/65535/53208484355_63f0a1ec0e_b.jpg" alt='diamond head mountain' width='33%'/>
+        <img src="https://live.staticflickr.com/65535/53208359524_b36191bbf3_c.jpg" alt='star trails from healeakala summit' width='33%'/>
+        <img src="https://live.staticflickr.com/65535/53208278963_9fcc709ce5_c.jpg" alt='diamond head hike' width='33%'/>
     </div>
   )
 }

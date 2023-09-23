@@ -3,8 +3,6 @@ import React from 'react'
 const Skills = () => {
   return (
     <div>
-      
-      
       <h2>I used to solve rubik's cubes "competetively"</h2>
         <h4>here is a table of my best times:</h4>
         <table style={{backgroundColor:'white'}}>
